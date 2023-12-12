@@ -12,6 +12,7 @@
             public const string Controller = Base + "/facultad";
             public const string FindFacultadById =  "{id}";
             public const string CreateFacultad = "";
+            public const string UpdateFacultad = "";
         }
     }
 }
