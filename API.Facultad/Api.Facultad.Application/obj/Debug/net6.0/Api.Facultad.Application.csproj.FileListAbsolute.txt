@@ -1,0 +1,15 @@
+C:\Universidad\TallerDesarrollo\Trabajo-Microservicios\API.Facultad\Api.Facultad.Application\bin\Debug\net6.0\Api.Facultad.Application.deps.json
+C:\Universidad\TallerDesarrollo\Trabajo-Microservicios\API.Facultad\Api.Facultad.Application\bin\Debug\net6.0\Api.Facultad.Application.dll
+C:\Universidad\TallerDesarrollo\Trabajo-Microservicios\API.Facultad\Api.Facultad.Application\bin\Debug\net6.0\Api.Facultad.Application.pdb
+C:\Universidad\TallerDesarrollo\Trabajo-Microservicios\API.Facultad\Api.Facultad.Application\bin\Debug\net6.0\Api.Facultad.Domain.dll
+C:\Universidad\TallerDesarrollo\Trabajo-Microservicios\API.Facultad\Api.Facultad.Application\bin\Debug\net6.0\Api.Facultad.Domain.pdb
+C:\Universidad\TallerDesarrollo\Trabajo-Microservicios\API.Facultad\Api.Facultad.Application\obj\Debug\net6.0\Api.Facultad.Application.csproj.AssemblyReference.cache
+C:\Universidad\TallerDesarrollo\Trabajo-Microservicios\API.Facultad\Api.Facultad.Application\obj\Debug\net6.0\Api.Facultad.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Universidad\TallerDesarrollo\Trabajo-Microservicios\API.Facultad\Api.Facultad.Application\obj\Debug\net6.0\Api.Facultad.Application.AssemblyInfoInputs.cache
+C:\Universidad\TallerDesarrollo\Trabajo-Microservicios\API.Facultad\Api.Facultad.Application\obj\Debug\net6.0\Api.Facultad.Application.AssemblyInfo.cs
+C:\Universidad\TallerDesarrollo\Trabajo-Microservicios\API.Facultad\Api.Facultad.Application\obj\Debug\net6.0\Api.Facultad.Application.csproj.CoreCompileInputs.cache
+C:\Universidad\TallerDesarrollo\Trabajo-Microservicios\API.Facultad\Api.Facultad.Application\obj\Debug\net6.0\Api.Facultad.Application.csproj.CopyComplete
+C:\Universidad\TallerDesarrollo\Trabajo-Microservicios\API.Facultad\Api.Facultad.Application\obj\Debug\net6.0\Api.Facultad.Application.dll
+C:\Universidad\TallerDesarrollo\Trabajo-Microservicios\API.Facultad\Api.Facultad.Application\obj\Debug\net6.0\refint\Api.Facultad.Application.dll
+C:\Universidad\TallerDesarrollo\Trabajo-Microservicios\API.Facultad\Api.Facultad.Application\obj\Debug\net6.0\Api.Facultad.Application.pdb
+C:\Universidad\TallerDesarrollo\Trabajo-Microservicios\API.Facultad\Api.Facultad.Application\obj\Debug\net6.0\ref\Api.Facultad.Application.dll

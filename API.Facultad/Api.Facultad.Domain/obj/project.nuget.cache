@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "u2qDj5WAqLn4xRs4gGsT6bgZwd/NAL9SI/Rfn7qA/SGuO/SekkhP7cjEzLT5tRXZBAdGCOx8nIMCKJQRzlfVKg==",
+  "success": true,
+  "projectFilePath": "C:\\Universidad\\TallerDesarrollo\\Trabajo-Microservicios\\API.Facultad\\Api.Facultad.Domain\\Api.Facultad.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\emlli\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.25\\microsoft.windowsdesktop.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\emlli\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.25\\microsoft.netcore.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\emlli\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.25\\microsoft.aspnetcore.app.ref.6.0.25.nupkg.sha512"
+  ],
+  "logs": []
+}

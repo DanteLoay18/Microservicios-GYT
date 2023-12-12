@@ -1,0 +1,12 @@
+C:\Universidad\TallerDesarrollo\Trabajo-Microservicios\API.Facultad\Api.Facultad.Domain\bin\Debug\net6.0\Api.Facultad.Domain.deps.json
+C:\Universidad\TallerDesarrollo\Trabajo-Microservicios\API.Facultad\Api.Facultad.Domain\bin\Debug\net6.0\Api.Facultad.Domain.dll
+C:\Universidad\TallerDesarrollo\Trabajo-Microservicios\API.Facultad\Api.Facultad.Domain\bin\Debug\net6.0\Api.Facultad.Domain.pdb
+C:\Universidad\TallerDesarrollo\Trabajo-Microservicios\API.Facultad\Api.Facultad.Domain\obj\Debug\net6.0\Api.Facultad.Domain.csproj.AssemblyReference.cache
+C:\Universidad\TallerDesarrollo\Trabajo-Microservicios\API.Facultad\Api.Facultad.Domain\obj\Debug\net6.0\Api.Facultad.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Universidad\TallerDesarrollo\Trabajo-Microservicios\API.Facultad\Api.Facultad.Domain\obj\Debug\net6.0\Api.Facultad.Domain.AssemblyInfoInputs.cache
+C:\Universidad\TallerDesarrollo\Trabajo-Microservicios\API.Facultad\Api.Facultad.Domain\obj\Debug\net6.0\Api.Facultad.Domain.AssemblyInfo.cs
+C:\Universidad\TallerDesarrollo\Trabajo-Microservicios\API.Facultad\Api.Facultad.Domain\obj\Debug\net6.0\Api.Facultad.Domain.csproj.CoreCompileInputs.cache
+C:\Universidad\TallerDesarrollo\Trabajo-Microservicios\API.Facultad\Api.Facultad.Domain\obj\Debug\net6.0\Api.Facultad.Domain.dll
+C:\Universidad\TallerDesarrollo\Trabajo-Microservicios\API.Facultad\Api.Facultad.Domain\obj\Debug\net6.0\refint\Api.Facultad.Domain.dll
+C:\Universidad\TallerDesarrollo\Trabajo-Microservicios\API.Facultad\Api.Facultad.Domain\obj\Debug\net6.0\Api.Facultad.Domain.pdb
+C:\Universidad\TallerDesarrollo\Trabajo-Microservicios\API.Facultad\Api.Facultad.Domain\obj\Debug\net6.0\ref\Api.Facultad.Domain.dll
