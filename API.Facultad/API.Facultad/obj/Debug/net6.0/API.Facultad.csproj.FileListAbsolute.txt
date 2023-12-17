@@ -60,7 +60,6 @@ C:\Universidad\TallerDesarrollo\Trabajo-Microservicios\API.Facultad\API.Facultad
 C:\Universidad\TallerDesarrollo\Trabajo-Microservicios\API.Facultad\API.Facultad\obj\Debug\net6.0\API.Facultad.AssemblyInfoInputs.cache
 C:\Universidad\TallerDesarrollo\Trabajo-Microservicios\API.Facultad\API.Facultad\obj\Debug\net6.0\API.Facultad.AssemblyInfo.cs
 C:\Universidad\TallerDesarrollo\Trabajo-Microservicios\API.Facultad\API.Facultad\obj\Debug\net6.0\API.Facultad.csproj.CoreCompileInputs.cache
-C:\Universidad\TallerDesarrollo\Trabajo-Microservicios\API.Facultad\API.Facultad\obj\Debug\net6.0\API.Facultad.MvcApplicationPartsAssemblyInfo.cs
 C:\Universidad\TallerDesarrollo\Trabajo-Microservicios\API.Facultad\API.Facultad\obj\Debug\net6.0\API.Facultad.MvcApplicationPartsAssemblyInfo.cache
 C:\Universidad\TallerDesarrollo\Trabajo-Microservicios\API.Facultad\API.Facultad\obj\Debug\net6.0\staticwebassets\msbuild.API.Facultad.Microsoft.AspNetCore.StaticWebAssets.props
 C:\Universidad\TallerDesarrollo\Trabajo-Microservicios\API.Facultad\API.Facultad\obj\Debug\net6.0\staticwebassets\msbuild.build.API.Facultad.props
@@ -76,3 +75,4 @@ C:\Universidad\TallerDesarrollo\Trabajo-Microservicios\API.Facultad\API.Facultad
 C:\Universidad\TallerDesarrollo\Trabajo-Microservicios\API.Facultad\API.Facultad\obj\Debug\net6.0\API.Facultad.pdb
 C:\Universidad\TallerDesarrollo\Trabajo-Microservicios\API.Facultad\API.Facultad\obj\Debug\net6.0\API.Facultad.genruntimeconfig.cache
 C:\Universidad\TallerDesarrollo\Trabajo-Microservicios\API.Facultad\API.Facultad\obj\Debug\net6.0\ref\API.Facultad.dll
+C:\Universidad\TallerDesarrollo\Trabajo-Microservicios\API.Facultad\API.Facultad\obj\Debug\net6.0\API.Facultad.MvcApplicationPartsAssemblyInfo.cs

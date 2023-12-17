@@ -1,6 +1,7 @@
 ﻿using Api.Facultad.Application.Contracts.Persistence;
 using Api.Facultad.Application.Utils;
 using Api.Facultad.Domain.DTOs.Base;
+using Api.Facultad.Domain.DTOs.Response;
 using Api.Facultad.Domain.Entities;
 using API.Catalogo.Domain.Constants.Base;
 using AutoMapper;
@@ -26,12 +27,21 @@ namespace Api.Facultad.Application.Features.Facultad.Queries.GetFacultadById
             try
             {
                 var facultadId = request.IdFacultad;
-                var facultadEncontrada = await _uow.Repository<Facultade>().GetAsync(x => !x.IsDeleted && x.Id == facultadId);
+                var facultadEncontrada = await _uow.Repository<Facultade>().GetAsync(x => !x.IsDeleted && x.Id == facultadId, cancellationToken);
 
                 if (facultadEncontrada == null)
+                {
+                    _logger.LogInformation($"No se encontro el id {request.IdFacultad} de la facultad ");
                     return ResponseUtil.NotFoundRequest(MessageConstant.NotFoundRequest);
-                
-                return ResponseUtil.OK(facultadEncontrada!);
+                }
+                    
+                var escuelasEncontradas = await _uow.Repository<Escuela>().GetAllAsync(x => x.FacultadId == facultadId, cancellationToken);
+
+                facultadEncontrada.Escuelas = escuelasEncontradas.ToList();
+
+                var facultadResponse = _mapper.Map<FacultadItemResponse>(facultadEncontrada);
+
+                return ResponseUtil.OK(facultadResponse);
 
             }
             catch (Exception ex)
