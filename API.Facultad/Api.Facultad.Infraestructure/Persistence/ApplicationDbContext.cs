@@ -1,9 +1,13 @@
 ﻿
 
+using Api.Facultad.Domain.Entities;
 using Api.Facultad.Domain.Entities.Base;
+using Api.Facultad.Infraestructure.Configurations;
 using Api.Facultad.Infraestructure.Persistence.Extensions;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using Microsoft.Extensions.Configuration;
+using System.IO;
 using System.Reflection;
 
 namespace Api.Facultad.Infraestructure.Persistence
@@ -36,7 +40,7 @@ namespace Api.Facultad.Infraestructure.Persistence
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-
         }
+
     }
 }

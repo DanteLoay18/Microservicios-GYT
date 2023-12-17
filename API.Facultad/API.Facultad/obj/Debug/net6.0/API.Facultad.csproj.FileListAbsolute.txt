@@ -26,6 +26,7 @@ C:\Universidad\TallerDesarrollo\Trabajo-Microservicios\API.Facultad\API.Facultad
 C:\Universidad\TallerDesarrollo\Trabajo-Microservicios\API.Facultad\API.Facultad\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
 C:\Universidad\TallerDesarrollo\Trabajo-Microservicios\API.Facultad\API.Facultad\bin\Debug\net6.0\Microsoft.OpenApi.dll
 C:\Universidad\TallerDesarrollo\Trabajo-Microservicios\API.Facultad\API.Facultad\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Universidad\TallerDesarrollo\Trabajo-Microservicios\API.Facultad\API.Facultad\bin\Debug\net6.0\Newtonsoft.Json.dll
 C:\Universidad\TallerDesarrollo\Trabajo-Microservicios\API.Facultad\API.Facultad\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Universidad\TallerDesarrollo\Trabajo-Microservicios\API.Facultad\API.Facultad\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Universidad\TallerDesarrollo\Trabajo-Microservicios\API.Facultad\API.Facultad\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -75,4 +76,3 @@ C:\Universidad\TallerDesarrollo\Trabajo-Microservicios\API.Facultad\API.Facultad
 C:\Universidad\TallerDesarrollo\Trabajo-Microservicios\API.Facultad\API.Facultad\obj\Debug\net6.0\API.Facultad.pdb
 C:\Universidad\TallerDesarrollo\Trabajo-Microservicios\API.Facultad\API.Facultad\obj\Debug\net6.0\API.Facultad.genruntimeconfig.cache
 C:\Universidad\TallerDesarrollo\Trabajo-Microservicios\API.Facultad\API.Facultad\obj\Debug\net6.0\ref\API.Facultad.dll
-C:\Universidad\TallerDesarrollo\Trabajo-Microservicios\API.Facultad\API.Facultad\bin\Debug\net6.0\Newtonsoft.Json.dll

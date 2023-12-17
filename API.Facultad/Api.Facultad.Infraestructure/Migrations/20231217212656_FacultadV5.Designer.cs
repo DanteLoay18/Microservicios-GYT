@@ -4,6 +4,7 @@ using Api.Facultad.Infraestructure.Persistence;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,10 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Api.Facultad.Infraestructure.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20231217212656_FacultadV5")]
+    partial class FacultadV5
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -45,62 +47,6 @@ namespace Api.Facultad.Infraestructure.Migrations
                     b.HasIndex("FacultadId");
 
                     b.ToTable("Escuela", "dbo");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = 1L,
-                            FacultadId = 1L,
-                            Nombre = "ESCUELA DE INGENIERIA CIVIL"
-                        },
-                        new
-                        {
-                            Id = 2L,
-                            FacultadId = 1L,
-                            Nombre = "ESCUELA DE INGENIERIA DE SISTEMAS"
-                        },
-                        new
-                        {
-                            Id = 3L,
-                            FacultadId = 2L,
-                            Nombre = "ESCUELA DE ENFERMERIA"
-                        },
-                        new
-                        {
-                            Id = 4L,
-                            FacultadId = 2L,
-                            Nombre = "ESCUELA DE PSICOLOGIA"
-                        },
-                        new
-                        {
-                            Id = 5L,
-                            FacultadId = 3L,
-                            Nombre = "ESCUELA DE AGRONOMIA"
-                        },
-                        new
-                        {
-                            Id = 6L,
-                            FacultadId = 3L,
-                            Nombre = "ESCUELA DE INGENIERIA AGROINDUSTRIAL"
-                        },
-                        new
-                        {
-                            Id = 7L,
-                            FacultadId = 4L,
-                            Nombre = "ESCUELA DE INGENIERIA FORESTAL"
-                        },
-                        new
-                        {
-                            Id = 8L,
-                            FacultadId = 4L,
-                            Nombre = "ESCUELA DE INGENIERIA AMBIENTAL"
-                        },
-                        new
-                        {
-                            Id = 9L,
-                            FacultadId = 5L,
-                            Nombre = "ESCUELA DE MEDICINA HUMANA"
-                        });
                 });
 
             modelBuilder.Entity("Api.Facultad.Domain.Entities.Facultade", b =>
