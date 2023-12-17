@@ -31,7 +31,7 @@ namespace Api.Facultad.Application.Features.Facultad.Queries.GetFacultadById
 
                 if (facultadEncontrada == null)
                 {
-                    _logger.LogInformation($"No se encontro el id {request.IdFacultad} de la facultad ");
+                    _logger.LogWarning($"No se encontro el id {request.IdFacultad} de la facultad ");
                     return ResponseUtil.NotFoundRequest(MessageConstant.NotFoundRequest);
                 }
                     
@@ -41,6 +41,7 @@ namespace Api.Facultad.Application.Features.Facultad.Queries.GetFacultadById
 
                 var facultadResponse = _mapper.Map<FacultadItemResponse>(facultadEncontrada);
 
+                _logger.LogInformation("Se encontro el id de la facultad correctamente");
                 return ResponseUtil.OK(facultadResponse);
 
             }
