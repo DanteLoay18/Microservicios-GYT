@@ -1,6 +1,7 @@
 ﻿using Api.Facultad.Application.Features.Facultad.Command.CreateFacultad;
 using Api.Facultad.Application.Features.Facultad.Command.UpdateFacultad;
 using Api.Facultad.Application.Features.Facultad.Queries.GetFacultadById;
+using Api.Facultad.Application.Features.Facultad.Queries.GetFacultadesPaginated;
 using Api.Facultad.Application.Utils;
 using Api.Facultad.Domain.DTOs.Base;
 using API.Facultad.Routes;
@@ -15,7 +16,7 @@ namespace API.Facultad.Controllers
     [Route(ApiRoutes.Facultad.Controller)]
     public class FacultadController : ControllerBase
     {
-        private IMediator _mediator;
+        private readonly IMediator _mediator;
         private readonly ILogger<FacultadController> _logger;
         public FacultadController(IMediator mediator, ILogger<FacultadController> logger)
         {
@@ -38,6 +39,21 @@ namespace API.Facultad.Controllers
                 return ResponseUtil.BadRequest(ex.Message.ToString());
             }
             
+        }
+
+        [HttpGet(ApiRoutes.Facultad.FindFacultadesPaginated)]
+        public async Task<ActionResult<ResponseBase>> GetFacultadesPaginated([FromQuery] GetFacultadesPaginatedQuery query)
+        {
+            try
+            {
+                return Ok(await _mediator.Send(query));
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "", ex.Message);
+                return ResponseUtil.BadRequest(ex.Message.ToString());
+            }
+
         }
 
         [HttpPost(ApiRoutes.Facultad.CreateFacultad)]
